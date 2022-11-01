@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+
 import 'package:flutter_application_trabajofinal/app/routes/app_routes.dart';
 import 'package:flutter_application_trabajofinal/app/ui/views/home/home_view.dart';
+import 'package:flutter_application_trabajofinal/app/ui/views/pantalla2/pantalla2.dart';
+import 'package:flutter_application_trabajofinal/app/ui/views/pantalla2/pantalla2_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +21,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const HomeView(),
+      home: const Pantalla2(),
     );
   }
 }
